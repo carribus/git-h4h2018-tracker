@@ -1,0 +1,81 @@
+* {
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    color: deepskyblue;
+    margin: 0
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container_col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerblock {
+    border-bottom: 3px solid deepskyblue;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+}
+.blockheader {
+    margin: 0 0 0 0;
+    font-size: 24;
+    font-weight: bolder;
+    color: deepskyblue;
+    text-align: left;
+}
+
+.big_font {
+    font-size: 28;
+    font-weight: bolder;
+}
+
+.countdown_timer {
+    margin: 0 0 0 0;
+    text-align: left;
+}
+
+.activityblock {
+    border-bottom: 3px solid deepskyblue;
+    margin-bottom: 20px;
+    padding: 5px;
+}
